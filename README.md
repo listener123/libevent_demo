@@ -18,7 +18,10 @@ zlib：https://linux.softpedia.com/get/Programming/Libraries/zlib-159.shtml#down
 
 安装教程：https://www.bilibili.com/video/BV1kZ4y137NZ?p=10
 
-注：openssl安装后可能存在路径问题，需要自行调整一下
+注：openssl安装后可能存在路径问题，需要自行调整一下。
+
 到libssl.so.1.1和libcrypto.so.1.1目录下，执行
+
 ln -s ./libssl.so.1.1 /usr/lib/libssl.so.1.1
+
 ln -s ./libcrypto.so.1.1 /usr/lib/libcrypto.so.1.1
